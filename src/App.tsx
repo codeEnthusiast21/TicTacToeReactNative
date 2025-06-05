@@ -127,6 +127,7 @@ function App(): React.JSX.Element {
           <Text style={styles.winnerTxt}>{gameWinner}</Text>
         </View>
       ) : (
+        <>
         <View
         style={[
           styles.playerInfo,
@@ -137,6 +138,7 @@ function App(): React.JSX.Element {
             Player {isCross? 'X' : 'O'}'s Turn
           </Text>
         </View>
+        </>
       )}
        {/* Game Grid */}
       <FlatList
