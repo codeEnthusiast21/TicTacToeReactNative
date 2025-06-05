@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "19.0.0",
     "react-native": "0.79.2",
+    "react-native-snackbar": "^2.9.0",
     "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
